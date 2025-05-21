@@ -2,45 +2,64 @@
 import { useEffect } from "react";
 
 const skills = [
+ {
+  "name": "HTML",
+  "icon": "📄</>",
+  "level": 90
+},
+ {
+  "name": "CSS",
+  "icon": "🎨🧩",
+  "level": 85
+},
   {
-    name: "React.js",
-    icon: "📱",
-    level: 90,
-  },
+  "name": "JavaScript (ES6+)",
+  "icon": "📜",
+  "level": 90
+},
   {
-    name: "React Native",
-    icon: "📲",
-    level: 85,
-  },
+  "name": "React.Js",
+  "icon": "⚛️ ",
+  "level": 80
+},
+ {
+  "name": "React Native",
+  "icon": "⚛️📱",
+  "level": 80
+},
   {
-    name: "JavaScript (ES6+)",
-    icon: "💻",
-    level: 90,
-  },
+  "name": "Tailwind",
+  "icon": "🌬️ ",
+  "level": 75
+},
   {
-    name: "Redux",
-    icon: "🔄",
-    level: 80,
-  },
-  {
-    name: "Firebase",
-    icon: "🔥",
-    level: 75,
-  },
-  {
-    name: "Git",
-    icon: "📊",
-    level: 85,
-  },
+  "name": "Node.Js",
+  "icon": "🟢 ",
+  "level": 85
+},
+ {
+  "name": "MongoDB",
+  "icon": "🍃 ",
+  "level": 85
+},
+{
+  "name": "REST API",
+  "icon": "🔗 🌐",
+  "level": 85
+}
 ];
 
 const tools = [
-  "VS Code",
-  "Postman",
-  "GitHub",
-  "Figma",
-  "npm",
-  "yarn",
+  "React.js ⚛️",
+  "HTML5 & CSS3 📄🎨",
+  "Tailwind CSS 🌬️",
+  "JavaScript (ES6+) 📜",
+  "React Router 🛣️",
+  "Axios (for API calls) 🌐",
+  "React Helmet (for SEO) 📈",
+  "Formik or React Hook Form ✍️",
+  "Vercel/Netlify for deployment 🚀",
+  "Git/GitHub for version control 🔧"
 ];
 
 const SkillsSection = () => {

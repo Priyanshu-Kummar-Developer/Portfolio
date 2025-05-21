@@ -5,20 +5,19 @@ import { CheckCircle } from "lucide-react";
 const services = [
   {
     title: "Frontend Web Development",
-    description: "Building responsive, interactive web applications using React.js, with focus on performance and modern UI patterns.",
+    description: "Build responsive, high-performance web apps using React.js.",
     features: [
-      "React.js application development",
-      "Interactive UI/UX implementation",
-      "Performance optimization",
+      "React.js development",
       "State management with Redux",
       "API integration",
+      "Performance optimization",
+      "Responsive design with Tailwind CSS",
     ],
   },
   {
     title: "Mobile App Development",
-    description: "Creating cross-platform mobile applications with React Native that work seamlessly across iOS and Android.",
+    description: "Develop cross-platform apps with React Native for iOS and Android.",
     features: [
-      "React Native app development",
       "Cross-platform compatibility",
       "Native module integration",
       "App performance optimization",
@@ -26,17 +25,55 @@ const services = [
     ],
   },
   {
-    title: "Frontend Consulting",
-    description: "Providing expert advice on frontend architecture, best practices, and optimization strategies.",
+    title: "Full-Stack Development (MERN)",
+    description: "Build secure, scalable apps with the MERN stack (MongoDB, Express, React, Node).",
     features: [
-      "Code review and improvement",
-      "Performance audit",
+      "MongoDB & Express.js backend",
+      "React.js frontend",
+      "Node.js server-side logic",
+      "JWT authentication",
+      "Deployment on Heroku/Netlify",
+    ],
+  },
+  {
+    title: "Consulting & Support",
+    description: "Expert advice on optimizing your development process and architecture.",
+    features: [
+      "Code reviews & performance audits",
       "Architecture planning",
-      "Team training and support",
+      "Team training",
       "Technical documentation",
     ],
   },
+  {
+    title: "UI/UX Design",
+    description: "Design user-friendly, visually appealing interfaces.",
+    features: [
+      "Wireframes & prototypes",
+      "UI design & usability testing",
+      "Mobile-first design",
+    ],
+  },
+  {
+    title: "E-commerce Solutions",
+    description: "Build scalable, feature-rich e-commerce platforms.",
+    features: [
+      "Custom e-commerce websites",
+      "Payment gateway integration",
+      "Inventory management",
+      "SEO & analytics",
+    ],
+  },
 ];
+
+const whyChooseMe = [
+  "Full-stack expertise in MERN.",
+  "Custom solutions for your business needs.",
+  "End-to-end support from design to deployment.",
+  "Quality-first approach with clean, maintainable code.",
+  "Tailored strategies to meet your goals.",
+];
+
 
 const ServicesSection = () => {
   useEffect(() => {
