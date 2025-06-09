@@ -126,7 +126,7 @@ const HeroSection = () => {
                 <div className="absolute inset-1.5 rounded-full overflow-hidden bg-gradient-to-tr from-primary/5 to-accent/5">
                   <Avatar className="w-full h-full">
                     <AvatarImage 
-                      src="https://i.postimg.cc/QNm1C4kz/Whats-App-Image-2025-05-26-at-3-07-09-PM-1.jpg" 
+                      src="https://i.postimg.cc/BQknhHBp/Whats-App-Image-2025-05-26-at-3-07-09-PM-1-Copy.jpg" 
                       alt="Priyanshu Kumar" 
                       className="w-full h-full object-cover object-center"
                     />
